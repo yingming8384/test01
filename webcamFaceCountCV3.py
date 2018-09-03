@@ -4,7 +4,9 @@ import logging as log
 import datetime as dt
 from time import sleep
 
-cascPath = "haarcascade_frontalface_default.xml"
+# cascPath = "haarcascade_frontalface_default.xml"
+# cascPath = "haarcascade_frontalface_alt2.xml"
+cascPath = "haarcascade_frontalface_alt.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 log.basicConfig(filename='webcam.log',level=log.INFO)
 
